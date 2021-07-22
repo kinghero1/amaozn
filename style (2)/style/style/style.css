@@ -1,0 +1,177 @@
+
+html {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:100%; 
+    height:100%;
+    background:url(pool.PNG) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+ .centerbox {
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #ffffff;
+    width:450px;
+    height: 420px;
+}
+
+.centerbox1 {
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #ffffff;
+    width:450px;
+    height: 420px;
+}
+
+.centerbox2 {
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #ffffff;
+    width:450px;
+    height: 418px;
+}
+
+.inside-box{
+    margin:45px;
+}
+
+.signup-text{
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.error-text{
+    font-size:15px;
+    font-weight: normal;
+    color: #ce3b71;
+}
+
+.email-text{
+    font-weight:normal; 
+    position: relative;  
+    top:-7px;
+}
+
+.error-text a{
+    font-size:15px;
+    font-weight: lighter;
+    text-decoration: none;
+    color:#5f8ec8;
+}
+
+.signup-text a {
+    font-size: 12px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #5f8ec8;
+}
+
+.submit-button{
+    position: relative;
+    top:30px;
+    float: right;
+}
+
+.sign-in-button{
+    position: relative;
+    top:15px;
+    float: right;
+}
+
+.next-button{
+    background-color: #0067b8;
+    color: #ffffff;
+    border:none;
+    width:100%;
+    padding:10px;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+.header1{
+    color: #414040;
+    font-size: 25px;
+    padding:0px;
+    font-weight: 500;
+    margin-top:13px;
+    margin-bottom:13px;
+}
+
+.getinput input{
+    border: none;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin: 0 0 10px 0;
+}
+
+.getinput input[type=email] {
+    font-size: 15px;
+    color: #976d6d;
+    font-weight:lighter;
+    border: none;
+    width: 100%;
+    border-bottom: 1px black solid;
+
+}
+
+.getinput input[type=password] {
+    font-size: 15px;
+    color: #976d6d;
+    font-weight:lighter;
+    border: none;
+    width: 100%;
+    border-bottom: 1px black solid;
+
+}
+
+.backbtn:hover {
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+.getinput input[type=email]:focus{
+    border:none;
+    border-bottom:1px solid #5fa0d2;
+    outline: none;
+}
+
+.getinput input[type=password]:focus{
+    border:none;
+    border-bottom:1px solid #5fa0d2;
+    outline: none;
+}
+
+input[type=checkbox]{
+    width:20px;
+    height:20px;
+    margin-top:10px;
+}
+
+.footer-text{
+    color: #ffffff;
+    font-size: 13px;
+    float:right;
+    padding-left:5px;
+    padding-right: 5px;
+    margin-bottom:4px;
+    margin-top:4px;
+    margin-right: 4px;
+    z-index: 1;
+}
+
+.footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 28px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+

